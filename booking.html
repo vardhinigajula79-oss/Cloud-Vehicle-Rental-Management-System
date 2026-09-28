@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vehicle Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Vehicle Booking</h1>
+
+<form id="bookingForm">
+
+    <input type="text"
+           id="vehicle"
+           placeholder="Vehicle Name"
+           required>
+
+    <br><br>
+
+    <label>Start Date:</label>
+    <input type="date" id="startDate" required>
+
+    <br><br>
+
+    <label>End Date:</label>
+    <input type="date" id="endDate" required>
+
+    <br><br>
+
+    <input type="number"
+           id="price"
+           placeholder="Price per Day"
+           required>
+
+    <br><br>
+
+    <button type="submit">Book Vehicle</button>
+
+</form>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
